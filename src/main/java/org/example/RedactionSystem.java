@@ -4,11 +4,11 @@ import javax.swing.*;
 
 public class RedactionSystem extends JFrame {
     private JPanel frame;
-    private JButton button1;
-    private JButton button2;
-    private JButton button3;
-    private JButton button4;
-    private JButton button5;
+    private JButton addArticleButton;
+    private JButton addAdminButton;
+    private JButton removeArticleButton;
+    private JButton addUserButton;
+    private JButton removeUserButton;
 
     private void initComponents() {
         setContentPane(frame);
